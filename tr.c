@@ -1,10 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-int i=1;
-do{
-printf("%d" ,i);
-i++;
-}
-while(i<=10);
+char name[50];
+printf("enter your name");
+scanf("%s",name);
+printf("hello %s",name);
 return 0;
 }
